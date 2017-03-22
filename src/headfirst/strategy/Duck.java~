@@ -1,11 +1,20 @@
 package headfirst.strategy;
 
 public abstract class Duck {
-  FlyBehavior f;
-  public setFlyBehavior(FlyBehavior f){
-    f = this.f;
-  }
-  performFly(){
-    f.fly();
-  }
+ FlyBehavior flyBehavior;
+ //QuackBehavior quackBehavior;
+ public Duck() {
+ }
+ public void setFlyBehavior (FlyBehavior fb) {
+  flyBehavior = fb;
+ }
+ 
+ abstract void display();
+ 
+ public void performFly() {
+  flyBehavior.fly();
+ }
+ public void swim() {
+  System.out.println("All ducks float, even decoys!");
+ }
 }
