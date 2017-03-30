@@ -3,7 +3,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.*;
 
-public class CalcAreaListener extends CalcAreaGUIMain implements ActionListener{
+public class CalcAreaListener implements ActionListener{
   public void actionPerformed(ActionEvent e){
     JButton b=(JButton)e.getSource();
     String cmd=e.getActionCommand();

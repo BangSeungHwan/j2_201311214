@@ -11,7 +11,6 @@ public class CalcAreaGUIMain {
     f.getContentPane().add(panel);
     JLabel label1=new JLabel("반지름");
     JLabel label2=new JLabel("면적");
-  
     
     JButton b1=new JButton("계산");
     JButton b2=new JButton("취소");
