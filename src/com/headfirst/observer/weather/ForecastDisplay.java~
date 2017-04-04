@@ -1,0 +1,6 @@
+package headfirst.observer.weather;
+ 
+public class ForecastDisplay implements Observer, DisplayElement {
+
+  
+}
