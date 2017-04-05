@@ -3,7 +3,6 @@ lib/
 model/*.png
 *.class
 *.DS_Store
-.java~
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
