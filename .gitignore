@@ -6,6 +6,9 @@ model/*.png
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+
+.java~
+
 # Package Files #
 *.jar
 *.war
