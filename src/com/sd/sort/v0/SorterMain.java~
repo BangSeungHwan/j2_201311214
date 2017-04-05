@@ -1,9 +1,0 @@
-package com.sd.sort.v0;
-
-public class SorterMain{
-  public static void main(String args[]){
-   Sorter s = new Sorter();
-   for(int i=0; i<data.length; i++)
-    System.out.println("data["+i+"]="+data[i]);
-  }
-}
